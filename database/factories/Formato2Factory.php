@@ -1,0 +1,81 @@
+<?php
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+
+use App\formato2;
+use Faker\Generator as Faker;
+
+$factory->define(formato2::class, function (Faker $faker) {
+    // return [
+    //     'data1' => $faker->name,
+    //     'data2' => $faker->name,
+    //     'data3' => $faker->date($format = 'Y-m-d', $max = 'now'),
+    //     'data4' => $faker->date($format = 'Y-m-d', $max = 'now'),
+    //     'data5' => 'chiapas',
+    //     'data6' => $faker->name,
+    //     'data7' => $faker->city,
+    //     'data8' => $faker->citySuffix,
+    //     'data9' => $faker->randomDigit,
+    //     'data10' => $faker->randomDigit,
+    //     'data11' => $faker->randomDigit,
+    //     'data12' => $faker->randomDigit,
+    //     'data13' => $faker->randomDigit,
+    //     'data14' => $faker->randomDigit,
+    //     'data15' => $faker->randomDigit,
+    //     'data16' => $faker->randomDigit,
+    //     'data17' => $faker->randomDigit,
+    //     'data18' => $faker->randomDigit,
+    //     'data19' => $faker->randomDigit,
+    //     'data20' => $faker->randomDigit,
+    //     'data21' => $faker->randomDigit,
+    //     'data22' => $faker->randomDigit,
+    //     'data23' => $faker->randomDigit,
+    //     'data24' => $faker->randomDigit,
+    //     'data25' => $faker->randomDigit,
+    //     'data26' => $faker->randomDigit,
+    //     'data27' => $faker->randomDigit,
+    //     'data28' => $faker->randomDigit,
+    //     'data29' => $faker->randomDigit,
+    //     'data30' => $faker->randomDigit,
+    //     'data31' => $faker->randomDigit,
+    //     'data32' => $faker->randomDigit,
+    //     'data33' => $faker->randomDigit,
+    //     'data34' => $faker->randomDigit,
+    //     'data35' => $faker->randomDigit,
+    //     'data36' => $faker->randomDigit,
+    //     'data37' => $faker->randomDigit,
+    //     'data38' => $faker->randomDigit,
+    //     'data39' => $faker->randomDigit,
+    //     'data40' => $faker->randomDigit,
+    //     'data41' => $faker->randomDigit,
+    //     'data42' => $faker->randomDigit,
+    //     'data43' => $faker->randomDigit,
+    //     'data44' => $faker->randomDigit,
+    //     'data45' => $faker->randomDigit,
+    //     'data46' => $faker->randomDigit,
+    //     'data47' => $faker->randomDigit,
+    //     'data48' => $faker->randomDigit,
+    //     'data49' => $faker->randomDigit,
+    //     'data50' => $faker->randomDigit,
+    //     'data51' => $faker->randomDigit,
+    //     'data52' => $faker->randomDigit,
+    //     'data53' => $faker->randomDigit,
+    //     'data54' => $faker->randomDigit,
+    //     'data55' => $faker->randomDigit,
+    //     'data56' => $faker->randomDigit,
+    //     'data57' => $faker->randomDigit,
+    //     'data58' => $faker->randomDigit,
+    //     'data59' => $faker->randomDigit,
+    //     'data60' => $faker->randomDigit,
+    //     'data61' => $faker->randomDigit,
+    //     'data62' => $faker->randomDigit,
+    //     'data63' => $faker->randomDigit,
+    //     'data64' => $faker->randomDigit,
+    //     'data65' => $faker->randomDigit,
+    // ];
+
+    return [
+        'data1'=>$faker->text,
+        'formato2_id' => rand(1,5)
+    ];
+});

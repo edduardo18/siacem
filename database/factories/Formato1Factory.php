@@ -1,0 +1,83 @@
+<?php
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+
+use App\formato1;
+use Faker\Generator as Faker;
+
+$factory->define(formato1::class, function (Faker $faker) {
+    // return [
+    //     'data1'=>$faker->text,
+    //     'user_id' => rand(1,5)
+    // ];
+    return [
+        'data1' => $faker->name,
+        'data2' => $faker->name,
+        'data3' => $faker->name,
+        'data4' => $faker->name,
+        'data5' => $faker->name,
+        'data6' => $faker->name,
+        'data7' => $faker->name,
+        'data8' => $faker->name,
+        'data9' => $faker->name,
+        'data10' => $faker->name,
+        'data11' => $faker->name,
+        'data12' => $faker->name,
+        'data13' => $faker->name,
+        'data14' => $faker->name,
+        'data15' => $faker->name,
+        'data16' => $faker->name,
+        'data17' => $faker->name,
+        'data18' => $faker->name,
+        'data19' => $faker->name,
+        'data20' => $faker->name,
+        'data21' => $faker->name,
+        'data22' => $faker->name,
+        'data23' => $faker->name,
+        'data24' => $faker->name,
+        'data25' => $faker->name,
+        'data26' => $faker->name,
+        'data27' => $faker->name,
+        'data28' => $faker->name,
+        'data29' => $faker->name,
+        'data30' => $faker->name,
+        'data31' => $faker->name,
+        'data32' => $faker->name,
+        'data33' => $faker->name,
+        'data34' => $faker->name,
+        'data35' => $faker->name,
+        'data36' => $faker->name,
+        'data37' => $faker->randomDigit,
+        'data38' => $faker->randomDigit,
+        'data39' => $faker->randomDigit,
+        'data40' => $faker->randomDigit,
+        'data41' => $faker->randomDigit,
+        'data42' => $faker->randomDigit,
+        'data43' => $faker->randomDigit,
+        'data44' => $faker->randomDigit,
+        'data45' => $faker->randomDigit,
+        'data46' => $faker->randomDigit,
+        'data47' => $faker->randomDigit,
+        'data48' => $faker->randomDigit,
+        'data49' => $faker->randomDigit,
+        'data50' => $faker->randomDigit,
+        'data51' => $faker->randomDigit,
+        'data52' => $faker->randomDigit,
+        'data53' => $faker->randomDigit,
+        'data54' => $faker->randomDigit,
+        'data55' => $faker->randomDigit,
+        'data56' => $faker->randomDigit,
+        'data57' => $faker->randomDigit,
+        'data58' => $faker->randomDigit,
+        'data59' => $faker->randomDigit,
+        'data60' => $faker->randomDigit,
+        'data61' => $faker->randomDigit,
+        'data62' => $faker->randomDigit,
+        'data63' => $faker->randomDigit,
+        'data64' => $faker->randomDigit,
+        'data65' => $faker->randomDigit,
+        'data66' => $faker->name,
+        'data67' => $faker->name,
+        'user_id' => rand(1,5)
+    ];
+});
